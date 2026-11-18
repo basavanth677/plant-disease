@@ -18,6 +18,10 @@ npm run build
 npm run preview
 ```
 
+## Deploy to GitHub Pages
+
+The GitHub Actions workflow builds the app and publishes the `dist` output whenever changes are pushed to `main`. In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions**. The deployed site is available at `https://basavanth677.github.io/plant-disease/`.
+
 ## Project structure
 
 ```text
